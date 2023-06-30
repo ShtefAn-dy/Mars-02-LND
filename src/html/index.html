@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- для современных браузеров -->
+    <link rel="icon" href="img/favicon/favicon.svg">
+    <!-- Apple Touch для IOS -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- для Android и будущих браузеров -->
+    <link rel="manifest" href="manifest.json">
+    <title>UNITY PROJECT</title>
+
+</head>
+
+<body>
+    <div class="container-outer">
+        <!-- !! сделать аутер гридом, дать всем детям высоту 1fr или 2 fr -->
+        <!-- @include("chunk/header.html") -->
+
+        <main class="main">
+            <!-- стили для шаблонов секций в _main.scss -->
+            <!-- !! id не удалять, должны совпадать с a.href в chunks/header.html -->
+            @include("chunk/sections/01taptofly.html")
+            @include("chunk/sections/02features.html")
+            @include("chunk/sections/03vision.html")
+            @include("chunk/sections/04flying.html")
+            <!-- ниже идут настройки слайдеров, svg, анимации и т.п. -->
+            <!-- @include("chunk/templates.html") -->
+
+        </main>
+        <!-- @include("chunk/footer.html") -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

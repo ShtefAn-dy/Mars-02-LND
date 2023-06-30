@@ -1,0 +1,61 @@
+// Ограничение макета
+// $wrapper-max: 1440px !default;
+// $wrapper-min: 280px !default;
+
+
+// Site width - more at __containers.scss
+$wrapper-max: 2000px;
+$wrapper-min: 320px;
+
+// Container width - more at __containers.scss
+$container-max-width: 1600px;
+$container-padding: 15px;
+
+// User Styles
+
+:root {
+    // text colors
+
+    --txt-dark-0: rgba(0, 0, 0, 1.0);
+    --txt-dark-146: rgba(146, 161, 165, 1.0);
+    // --txt-dark-102: rgba(102, 102, 102, 1.0);
+    // --txt-dark-224: rgba(224, 224, 224, 1.0);
+    // --txt-dark-234: rgba(234, 234, 234, 1.0);
+    --txt-dark-255: rgba(255, 255, 255, 1.0);
+
+    // Backgrounds and Details
+
+    --bg-0: rgba(255, 255, 255, 1.0);
+    --bg-header-grey: rgba(239, 242, 246, 1.0);
+    --bg-header-red: rgba(255, 52, 61, 1.0);
+    
+
+    --dtl-red: rgba(255, 52, 61, 1.0);
+    --dtl-green: rgba(49, 143, 118, 1.0);
+    --dtl-grey: rgba(239, 242, 246, 1.0);
+    --dtl-black: rgba(0, 0, 0, 1.0);
+
+    // Fonts
+
+    --ff-main: "Montserrat";
+
+    // Gaps, Margins and Paddings
+    //    !!! убрать
+
+    // --gap-vertical: 5rem;
+
+    // ** padding-bottom: calc(var(--gap-v) * 2.5);
+    
+    // --gap-v: 3.1rem;
+    // --gap-aside: 20rem;
+
+    // --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
+    --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
+    --gap-aside: clamp(1.5rem, -2.024rem + 7.62vw, 20rem);
+    // --gap-aside--mobile: clamp(4rem, -3.5rem + 26.5vw, 10rem);
+    --gap-aside--mobile: clamp(4rem, -3.5rem + 23.5vw, 10rem);
+    --gap-h: clamp(0.5rem, 0.252rem + 1.24vw, 1.8rem);
+
+}
+
+// !!!! main gradient size*6, margin? @include mobile size*3
