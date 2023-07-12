@@ -34,6 +34,7 @@ $container-padding: 15px;
     --dtl-green: rgba(49, 143, 118, 1.0);
     --dtl-grey: rgba(239, 242, 246, 1.0);
     --dtl-black: rgba(0, 0, 0, 1.0);
+    --dtl-white: rgba(255, 255, 255, 1.0);
 
     // Fonts
 
@@ -46,14 +47,18 @@ $container-padding: 15px;
 
     // ** padding-bottom: calc(var(--gap-v) * 2.5);
     
-    // --gap-v: 3.1rem;
-    // --gap-aside: 20rem;
-
-    // --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
+    // ~ vertical padding
+      // --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
     --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
+
+    //  ~ container padding
     --gap-aside: clamp(1.5rem, -2.024rem + 7.62vw, 20rem);
+
+    // ~container padding for @nclude mobile
     // --gap-aside--mobile: clamp(4rem, -3.5rem + 26.5vw, 10rem);
     --gap-aside--mobile: clamp(4rem, -3.5rem + 23.5vw, 10rem);
+
+    // vertical gap
     --gap-h: clamp(0.5rem, 0.252rem + 1.24vw, 1.8rem);
 
 }

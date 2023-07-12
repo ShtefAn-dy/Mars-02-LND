@@ -11,4 +11,7 @@
     "flying"
     "journey"
     ;
+    @include mobile{
+        grid-template-rows: 2fr 1fr 2fr 2fr 1fr;
+    }
 }

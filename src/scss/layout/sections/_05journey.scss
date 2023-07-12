@@ -1,0 +1,51 @@
+#journey {
+    grid-area: "journey";
+
+}
+
+.journey {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url("../img/journey-bg@2x.jpg");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.journey__title {
+    color: var(--txt-dark-255);
+    padding-bottom: calc(var(--gap-v)*2);
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+
+}
+
+.journey__button {
+    margin-bottom: calc(var(--gap-v)*3);
+    border: 2px solid var(--dtl-white);
+
+    // TODO 
+    color: var(--dtl-green);
+    background: linear-gradient(30deg, rgba(255,255,255, 1), rgba(255,255,255, 0.5), rgba(255,255,255, 1));
+    background-size: 1000%;
+
+    &:hover {
+        animation: journey-button 30s linear infinite;
+    }
+
+    @keyframes journey-button {
+        0% {
+            background-position: 0%;
+        }
+
+        100% {
+            background-position: 1000%;
+        }
+    }
+}
+

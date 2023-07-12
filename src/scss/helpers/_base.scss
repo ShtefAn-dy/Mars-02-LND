@@ -12,7 +12,7 @@ html {
 body {
   box-sizing: border-box;
 
-  min-height: 100vh;
+  height: 100%;
   font-size: 1.6rem;
 
   font-family: var(--ff-main), Arial, Helvetica, sans-serif;
@@ -51,11 +51,8 @@ h6 {
   overflow: hidden;
 }
 
-.caps {
-  text-transform: uppercase;
-}
-
 .container-outer {
+  min-height: 100%;
   @include container-outer;
 }
 

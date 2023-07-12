@@ -32,6 +32,11 @@
         order: 1;
         padding-left: var(--gap-aside--mobile);
     }
+    div{
+        &::first-letter{
+            text-transform: uppercase;
+        }
+    }
 
     h2 {
         padding-bottom: calc(var(--gap-v)*2);

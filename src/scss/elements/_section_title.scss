@@ -1,17 +1,24 @@
 .section-title {
     white-space: nowrap;
-    // font-size: clamp(1.6rem, 1.561rem + 0.2vw, 1.8rem);
 
     &--sm {
-        font-size: 4.8rem;
+        // !! clamp
+        // font-size: 4.8rem;
+        font-size:clamp(2.2rem, 1.705rem + 2.48vw, 4.8rem);
         font-weight: 600;
-        color: green;
+        @include laptop{
+            font-weight: 500;
+        }
     }
 
     &--md {
+        // !! clamp
         font-size: 6rem;
         font-weight: 700;
         line-height: 1.2;
+        @include laptop{
+            font-weight: 500;
+        }
     }
 
     &--lg {
@@ -24,31 +31,12 @@
             font-size: clamp(2.2rem, 0.575rem + 7.12vw, 3.5rem);
         }
     }
+    &--bold {
+        font-weight: 700;
 
-    // @include hd {
-    //     color: greenyellow;
-    // }
-
-    // @include desktop {
-    //      color: firebrick;
-    // }
-
-    // @include laptop {
-    //      color: yellow;
-    // }
-
-    // @include tablet {
-
-    //     color: red;
-    // }
-
-    // @include phablet {
-
-    //     color: blue;
-    // }
-
-    // @include mobile {
-
-    //     color: green;
-    // }
+        @include mobile {
+            font-weight: 500;
+        }
+    }
 }
+
