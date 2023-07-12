@@ -1,0 +1,4 @@
+#intro{
+    // background-color: linear-gradient(90deg, rgba(var(--dtl-white)) 75%, rgba(var(--dtl-red)) 75%);
+    background: linear-gradient(90deg, var(--dtl-white) calc(100% / 3 * 2), var(--dtl-red) calc(100% / 3 * 2));
+}

@@ -7,12 +7,15 @@
 @import "helpers/containers";
 @import "helpers/icomoon";
 @import "helpers/fontcreator";
+@import "helpers/caps";
+@import "helpers/accent";
+@import "helpers/grid";
 @import "helpers/base";
 
 // дефолтные стили внешних библиотек, слайдеров, и т.п.
 
 // стили секций 
-@import "layout/**/*scss";
+@import "blocks/**/*scss";
 
 // стили элементов: заголовки, формы, кнопки, слайдеры
 @import "elements/*scss";

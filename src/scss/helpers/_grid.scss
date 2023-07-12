@@ -1,0 +1,28 @@
+.container-outer{
+     display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 6fr 1fr;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+}
+
+.main{
+    grid-area: "main";
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-areas:
+    "intro"     //2fr
+    "taptofly"  //1fr
+    "features"  //1fr
+    "vision"    //1fr
+    "flying"    //1fr
+    "journey"   //2fr
+    ;
+    @include mobile{
+        grid-template-rows: 2fr 1fr 1fr 2fr 2fr 1fr;
+    }
+}

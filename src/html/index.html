@@ -19,11 +19,12 @@
 <body>
     <div class="container-outer">
         <!-- !! сделать аутер гридом, дать всем детям высоту 1fr или 2 fr -->
-        <!-- @include("chunk/header.html") -->
+        @include("chunk/header.html")
 
         <main class="main">
             <!-- стили для шаблонов секций в _main.scss -->
             <!-- !! id не удалять, должны совпадать с a.href в chunks/header.html -->
+            @include("chunk/sections/00intro.html")
             @include("chunk/sections/01taptofly.html")
             @include("chunk/sections/02features.html") 
             @include("chunk/sections/03vision.html")
@@ -33,7 +34,7 @@
             <!-- @include("chunk/templates.html") -->
 
         </main>
-        <!-- @include("chunk/footer.html") -->
+        @include("chunk/footer.html")
     </div>
     <script src="js/main.js"></script>
 </body>
