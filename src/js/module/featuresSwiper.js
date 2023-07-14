@@ -1,6 +1,6 @@
 import Swiper from 'swiper/bundle';
 
-const swiperTest = new Swiper('.features__swiper', {
+const featuresSwiper = new Swiper('.features__swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -32,8 +32,8 @@ const swiperTest = new Swiper('.features__swiper', {
       slidesPerView: 3,
     },
     1024: {
-      // slidesPerView: 4,
-      enabled: false,
+      slidesPerView: 4,
+      // enabled: false,
     },
   },
 

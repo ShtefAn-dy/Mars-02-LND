@@ -1,13 +1,14 @@
-
 // !!!!--------------------------------------------
-#vision{
+#vision {
     grid-area: "vision";
     background-color: rgba(0, 255, 0, .165);
-    
+
 }
 
 .vision {
-   
+    // !!!!
+    // position: relative;
+    //    !!!
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -46,8 +47,8 @@
         padding-left: var(--gap-aside--mobile);
     }
 
-    div{
-        &::first-letter{
+    div {
+        &::first-letter {
             text-transform: uppercase;
         }
     }

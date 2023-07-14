@@ -1,10 +1,16 @@
-// !!!
+//!! swiper будет просвечивать сквозь header sticky
+// !! или header: z-index:100 - тогда не просвечивает слайдер
+// !! или всем секциям position: relative
 
 #header{
+  // !!!!
+  z-index: 100;
+  // !!!!
   grid-area: "header";
   position: sticky;
   top: 0;
-  background: linear-gradient(90deg, var(--dtl-red) calc(100% / 3 * 2), var(--dtl-white) calc(100% / 3 * 2));
+  // background: linear-gradient(90deg, var(--dtl-red) calc(100% / 3 * 2), var(--dtl-grey) calc(100% / 3 * 2));
+  background: linear-gradient(90deg, var(--dtl-red) calc(100% / 3 * 2), var(--dtl-grey) calc(100% / 3 * 2));
 }
 
 // !!!

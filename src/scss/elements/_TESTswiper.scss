@@ -1,3 +1,22 @@
+// !! https://oxygen4fun.supadezign.com/tips/swiperjs-tips-and-good-practice/
+
+// !! dots and pagination outside the slide
+// .somesection         //overflow:hidden фиксит баг с гридами
+//  .swiper-container   // задать ограничение height для vertical и width для горизонтального слайдера
+//    .swiper 
+//      .swiper-wrapper 
+//        .swiper-slide 
+//        .swiper-slide
+//        .swiper-slide
+//    .swiper-pagination
+//    .swiper-button-prev
+//    .swiper-button-next
+
+//!! swiper будет просвечивать сквозь header sticky
+// !! или header: z-index:100 - тогда не просвечивает слайдер
+// !! или всем секциям position: relative
+
+
 .test-swiper {
   background-color: rgba(0, 0, 255, 0.1);
   max-width: 100%;

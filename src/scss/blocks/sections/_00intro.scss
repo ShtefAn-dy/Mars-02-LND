@@ -1,4 +1,68 @@
 #intro{
+    
     // background-color: linear-gradient(90deg, rgba(var(--dtl-white)) 75%, rgba(var(--dtl-red)) 75%);
-    background: linear-gradient(90deg, var(--dtl-white) calc(100% / 3 * 2), var(--dtl-red) calc(100% / 3 * 2));
+    background: linear-gradient(90deg, var(--dtl-grey) calc(100% / 3 * 2), var(--dtl-red) calc(100% / 3 * 2));
+    overflow: hidden;
 }
+
+.intro{
+    
+}
+
+.intro__swiper-container {
+   
+}
+.swiper-container {
+   
+
+}
+.intro__swiper {
+   height: 100vh;
+}
+
+
+.intro__list {
+}
+.intro__item {
+}
+.intro__link {
+}
+.intro__text-box {
+}
+.intro-title {
+}
+.intro__desc {
+}
+.intro__img-box {
+}
+.intro__img {
+}
+
+// .intro__swiper .swiper-pagination-vertical.swiper-pagination-bullets{
+//     position: absolute;
+//     left: 0 !important;
+//  }
+
+// .intro__swiper .intro__swiper .swiper-pagination-vertical.swiper-pagination-bullets{
+//     position: absolute;
+//     height: 100%;
+//     left: 0 !important;
+//     bottom: 50% !important;
+//  }
+
+.intro__pagination{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    background-color: yellow;
+    z-index: 100;
+}
+ .pag{
+    padding: 20px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+
+ }

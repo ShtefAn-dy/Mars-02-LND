@@ -41,14 +41,11 @@ $container-padding: 15px;
     --ff-main: "Montserrat";
 
     // Gaps, Margins and Paddings
-    //    !!! убрать
-
-    // --gap-vertical: 5rem;
-
+   
     // ** padding-bottom: calc(var(--gap-v) * 2.5);
     
     // ~ vertical padding
-      // --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
+    // --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
     --gap-v: clamp(1.3rem, 0.645rem + 3.27vw, 3.1rem);
 
     //  ~ container padding
@@ -58,7 +55,7 @@ $container-padding: 15px;
     // --gap-aside--mobile: clamp(4rem, -3.5rem + 26.5vw, 10rem);
     --gap-aside--mobile: clamp(4rem, -3.5rem + 23.5vw, 10rem);
 
-    // vertical gap
+    // horizontal gap
     --gap-h: clamp(0.5rem, 0.252rem + 1.24vw, 1.8rem);
 
 }
