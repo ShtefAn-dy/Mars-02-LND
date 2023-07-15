@@ -3,6 +3,7 @@ import Swiper from 'swiper/bundle';
 const introSlider = new Swiper('.intro__swiper', {
   // Optional parameters
   direction: 'vertical',
+  // direction: 'horizontal',
   loop: true,
 
   slidesPerView: 1,
@@ -13,7 +14,8 @@ const introSlider = new Swiper('.intro__swiper', {
  
   // If we need pagination
   pagination: {
-    el: 'intro__pagination',
+    // el: '.intro__pagination',
+    el: '.intro__pagination',
     clickable: true,
     type: "bullets",
     // type: "fraction",
