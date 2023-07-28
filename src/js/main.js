@@ -13,9 +13,9 @@ import gsapTest from "./module/TESTgsap.js";
 
  
 import scrollNburger from "./module/burgerNscroll.js";
-import introSlider from "./module/introSlider";
-import featuresSwiper from "./module/featuresSwiper.js";
-//import introSlider from "./module/introSlider";
+import introSlider from "./module/introSlider.js";
+import featuresSlider from "./module/featuresSlider.js";
+
 
 // scrollNburger();
 

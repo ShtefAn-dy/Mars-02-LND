@@ -1,26 +1,42 @@
 #intro {
-
     // background-color: linear-gradient(90deg, rgba(var(--dtl-white)) 75%, rgba(var(--dtl-red)) 75%);
     background: linear-gradient(90deg, var(--dtl-grey) calc(100% / 3 * 2), var(--dtl-red) calc(100% / 3 * 2));
     overflow: hidden;
 }
 
-.intro {}
+.intro {
+//   padding-top: calc(var(--gap-v) * (-4));
+     // padding-bottom: calc(var(--gap-v) * (-4));
+    // height: calc(100vh - calc(var(--gap-v) * 4));
+}
 
-.intro__swiper-container {}
-
-.swiper-container {}
+.intro__swiper-container {
+    padding-left: var(--gap-aside);
+    padding-right: var(--gap-aside);
+   
+}
 
 .intro__swiper {
     height: 100vh;
+    width: 100%;
+    background: rgba(0, 255, 255, .1);
 }
 
 
-.intro__list {}
+.intro__list {
+    background: rgba(0, 255, 255, .1);
+    margin-top: calc(var(--gap-v) * (4));
+    margin-bottom: calc(var(--gap-v) * (8));
+    padding-left: calc(var(--gap-h)*4);
+}
 
-.intro__item {}
+.intro__item {
+    
+}
 
-.intro__link {}
+.intro__link {
+    display: flex;
+}
 
 .intro__text-box {}
 
@@ -46,7 +62,7 @@
 }
 
 
-
+// !!! delete below the line
 .intro__pagination {
     // position: absolute;
     // top: 30% !important;
@@ -62,3 +78,5 @@
 //     // left: initial;
 //     // right: 0;
 //  }
+
+// !! delete the code above the line
